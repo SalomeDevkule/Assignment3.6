@@ -1,0 +1,11 @@
+1)Method Overloading with same return types.
+The concept of method overloading depends on 2 things-1)method name and 2)signature
+It means using same method name with different signatures.
+However, using same return type is not an issue here. 
+So it is possible to overload methods with same return type.
+For example,
+Consider 2 methods where 1st is to find area of circle and other is to find area of rectangle.
+Here the return type could be int for both the methods with different number of arguments.
+
+int area(int radius) //for circle
+int area(int length, int breadth) //for rectangle
